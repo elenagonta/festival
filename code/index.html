@@ -1,0 +1,461 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="author" content="Elena Gonța">
+    <meta name="keywords" content="eveniment,festival,rock n roll,despre noi">
+    <meta name="description"
+        content="Un site ce are scop promovarea și susținerea unui eveniment și anume un festival, conceptul fiind rock n roll,prin intermediul căruia oamenii interesați pot veni aici pentru a se informa și pentru a obține mai multe detalii. ">
+    <title>Cluj-Napoca,Rock n Roll Festival</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,500&family=Playfair+Display:wght@500&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: rgb(182, 182, 176);
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* nav*/
+
+
+        .main-navbar {
+            background-color: rgb(117, 121, 141);
+        }
+
+        .main-navbar .navbar-brand {
+            font-size: 30px;
+            line-height: 50px;
+            margin-bottom: 0;
+            margin-right: 50px;
+        }
+
+        .main-navbar .navbar-brand img {
+            height: 50px;
+            margin-right: 10px;
+            vertical-align: bottom;
+        }
+
+        .main-navbar .nav-link {
+            color: rgb(6, 6, 6);
+        }
+
+        .main-navbar .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+                background-color: rgb(68, 68, 67);
+            }
+    
+           
+           
+    </style>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-md main-navbar sticky-top">
+        <nav class="container-xxl">
+            <h1 class="navbar-brand">
+                <a class="nav-link" href="index.html">
+                    <img class="logo" src="guitar.png" /> Cluj-Napoca,Rock n Roll Festival
+                </a>
+            </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
+                aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="nav main-menu flex-column flex-md-row">
+                    <li class="nav-item"><a class="nav-link" href="#Desprenoi">Despre noi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Locație">Locație</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Program">Program</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Bilete">Bilete</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="slider" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="4" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="ratio ratio-21x9">
+                    <img src="abstract-music-rock-bw.jpg" class="d-block w-100" alt="instrumente muzicale">
+                </div>
+
+
+            </div>
+            <div class="carousel-item">
+                <div class="ratio ratio-21x9">
+                    <img src="artist-band.jpg" class="d-block w-100" alt="o persoană cântă la chitară">
+                </div>
+
+
+            </div>
+            <div class="carousel-item">
+                <div class="ratio ratio-21x9">
+                    <img src="artist-monkey.jpg" class="d-block w-100" alt="o maimuță cântă la chitară">
+                </div>
+
+
+            </div>
+            <div class="carousel-item">
+                <div class="ratio ratio-21x9">
+                    <img src="audience5.jpg" class="d-block w-100" alt="audiența festivalului">
+                </div>
+
+
+            </div>
+            <div class="carousel-item">
+                <div class="ratio ratio-21x9">
+                    <img src="artist-dj.jpg" class="d-block w-100" alt="un dj vorbește la microfon">
+                </div>
+
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container mt-5">
+        <p>
+            Ești plictisit și îți dorești o pauză,atunci sigur ai nevoie de a te distra! În 13
+            aprilie,
+            sărbătorim ziua internațională a <em>Rock-n-Roll-ului</em>.Rock and roll sau
+            rocknroll este un stil muzical provenit din Statele Unite ale Americii, care s-a dezvoltat
+            în
+            special la sfârșitul anilor 1940 și începutul anilor 1950 dintr-o combinație de blues, jazz,
+            country
+            și gospel.
+        </p>
+
+        <hr />
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 id="Desprenoi">Despre noi</h2>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-md-7 col-lg-8">
+                <div>
+                    <p>Rock n Roll este deseori cântat cu chitare electrice, chitară bas, instrumente cu
+                        clape și
+                        tobe.Termenul „rock and roll” a fost ințial un termen nautic care însemna legănarea vasului.
+                        La
+                        sfârșitul secolului al XIX-lea sau începutul secolului al XX-lea, muzica gospel și jubilee
+                        au
+                        cooptat termenul, folosindu-l în sensul de a fi legănat în brațele Domnului. Prima folosire
+                        înregistrată a termenului este pe un disc din 1916 „Camp Meeting Jubilee”.Așadar,am hotărât
+                        împreună cu un
+                        grup restrâns de indivizi internaționali, pasionați de această cultură și care vor umple
+                        scena cu
+                        cover uri ale celor mai vechi trupe rock,să organizăm un Festival al ROCK N ROLL ului,în
+                        România,orașul Cluj-Napoca,pentru
+                        a
+                        descoperi mai mule persoane pasionate de acesta și care ar dori să se distreze pe muzica
+                        celor mai
+                        vechi hituri ale trupelor:BEATLES,ROLING STONES,METALICA,NIRVANA etc</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-4">
+                <img class="w-100 rounded mt-4 mt-lg-0" src="artist-dj2.jpg" alt="aparatele unui dj" />
+            </div>
+        </div>
+
+        <hr />
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 id="Locație">Locație</h2>
+
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-md-7 col-lg-8">
+                <div>
+                    <p>Vă așteptăm,la ora 20:00,în data de 13 iulie,2024,în orașul CLUJ-NAPOCA,locația <em>CLUJ
+                            ARENA</em> ,unde va avea loc cel mai tare Festival Rock n Roll din toate timpurile!
+                        Persoanele prezente,vor avea ocazia,de a-și expune talentul chiar pe scena,alături de invitații
+                        noștri.Bine ați venit la "Cluj-Napoca,Rock 'n' Roll Festival " - un festival ce aduce în prim
+                        plan
+                        spiritele sălbatice ale muzicii, dansului și entuziasmului specific genului rock 'n' roll!
+                        Acest eveniment incredibil va fi o călătorie prin istoria și diversitatea rockului, oferind
+                        experiențe unice și amintiri de neuitat.</p>
+                </div>
+
+
+
+                <div class="col-12 col-md-5 col-lg-4">
+                    <img class="w-100 rounded mt-4 mt-lg-0">
+                    <p><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.81035422493!2d23.569127176345944!3d46.76863447112529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e8f6ad87633%3A0x23f7c32408a471a4!2sCluj%20Arena!5e0!3m2!1sen!2sro!4v1701519904109!5m2!1sen!2sro"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                </div>
+
+                <hr />
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 id="Program">Program</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="audience2.jpg" class="w-100 h-100 rounded" alt="audiența festivalului">
+
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Ziua 1:Lansare în stil mare</h3>
+                                        <p class="card-text">Ora 18:00 - Deschiderea Porților: Intră în atmosfera
+                                            vibrantă a festivalului, explorează
+                                            zonele de vânzare cu suveniruri și alimentație. Ora 19:30 - Soundcheck-ul
+                                            Legendar: Un spectacol special de soundcheck care
+                                            îți va aduce
+                                            aminte de clasicii rock 'n' roll. De la Chuck Berry la Elvis, această
+                                            prezentare te va
+                                            transporta în epoca de aur a muzicii.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="audience4.jpg" class="w-100 h-100 rounded" alt="audiența de la festival">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Ziua 2:Explorarea Diversității Rock 'n' Roll</h3>
+                                        <p class="card-text">
+
+                                            Ora 14:00-Ateliere și Expoziții: Descoperă rădăcinile și
+                                            influențele rockului prin ateliere interactive și expoziții de instrumente
+                                            muzicale iconice.
+                                            Ora 17:00-Competiția de Dans Rock: Înscrie-te și concurează sau
+                                            pur și simplu bucură-te de
+                                            talentul
+                                            dansatorilor în competiția de dans rock 'n' roll.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="artist-band1.jpg" class="w-100 h-100 rounded" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Ziua 3:Apogeul Euforiei Rock 'n' Roll</h3>
+                                        <p class="card-text">Ora 16:00 - Picnic Rockabilly: Relaxare și bucurie în aer
+                                            liber cu mâncare delicioasă și
+                                            atmosferă rockabilly. Adună-te cu prietenii și familia pentru un moment de
+                                            convivialitate.
+
+                                            Ora 19:00 - Legende în Concert: O reprezentație tribut aducând în scenă
+                                            legendele rock 'n'
+                                            roll. De la Rolling Stones la Led Zeppelin.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+
+                    <div class="row">
+                        <div>
+
+                            <h2 id="Bilete">Bilete</h2>
+                        </div>
+                        <div class="col-sm-6">
+
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Bilete Gold<span class="badge text-bg-danger">limited!</span>
+                                    </h4>
+                                    <p class="card-text">Gold reprezintă cea mai înaltă categorie de acces la
+                                        eveniment și oferă posesorilor o experiență premium. Beneficiile pot include:
+                                    </p>
+                                    <ul>
+                                        <li>Locuri VIP: Acces la cele mai bune locuri din locație, oferind o vedere
+                                            excelentă
+                                            asupra evenimentului.</li>
+                                        <li>Acces rapid: Posibilitatea de a evita cozile prin intrarea rapidă sau
+                                            accesul la
+                                            zone dedicate pentru posesorii de bilete Gold.</li>
+                                        <li>Serviciu de ospătari: Posibilitatea de a comanda băuturi și gustări direct
+                                            de la un
+                                            ospătar dedicat, fără a fi nevoie să părăsiți locul.</li>
+                                        <li>Pachete de bun venit: Cadouri sau privilegii speciale, cum ar fi tricouri
+                                            personalizate, materiale promoționale exclusive sau alte surprize.</li>
+
+                                    </ul>
+                                    <a href="#" class="btn btn-primary">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Bilete Silver</h4>
+                                    <p class="card-text">Biletele Silver oferă, de asemenea, o experiență de calitate,
+                                        Descrierea pentru
+                                        biletele Silver poate include:</p>
+                                    <ul>
+                                        <li>Locuri bune: Acces la locuri confortabile, cu o vizibilitate bună asupra
+                                            scenei sau a evenimentului.</li>
+                                        <li>Acces la zone restrânse: Posibilitatea de a accesa anumite zone restrânse
+                                            ale locației.</li>
+                                        <li> Băuturi și mâncare disponibile: Acces la baruri și zone de alimentație,
+                                            oferind o varietate de opțiuni pentru băuturi și gustări.</li>
+                                        <li>Cadouri mici: Posibilitatea de a primi mici cadouri sau beneficii
+                                            adiționale, cum ar fi autografe, materiale promoționale sau alte surprize.
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+
+                        <div>
+                            <h2>Asigurăm toate necesitățile<span class="badge text-bg-success">Orice ai nevoie!</span>
+                            </h2>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="parking-area.png" class="card-img-top" alt="parcare">
+                            <div class="card-body">
+                                <h3 class="card-title">Locuri de parcare</h3>
+                                <p class="card-text">Fii sigur ca la noi găsești loc de parcare.</p>
+
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="wi-fi.png" class="card-img-top">
+                            <div class="card-body" alt="wi-fi">
+                                <h3 class="card-title">Internet gratutit</h3>
+                                <p class="card-text">Asigurăt-te ca poți tranasmite live concertul.</p>
+
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="terrace.png" class="card-img-top">
+                            <div class="card-body" alt="terasă" >
+                                <h3 class="card-title">Terase spațioase</h3>
+                                <p class="card-text">Dacă te-ai obosit de muzică poți merge la terasă.</p>
+
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="tray.png" class="card-img-top">
+                            <div class="card-body" alt="restaurant" >
+                                <h3 class="card-title">Restaurnate în apropriere</h3>
+                                <p class="card-text">Nu o să simți foamea,există restaurnate apropiate.</p>
+                            </div>
+                        </div>
+
+                      
+                            <footer class="main-footer mt-5">
+                                <div class="container">
+                                    <div class="d-flex justify-content-between pt-3">
+                                        
+                                
+
+                                    <ul class="nav justify-content-end list-unstyled d-flex">
+                                        <li class="me-3">
+                                            <a href="https://www.facebook.com/" target="_blank">
+                                                <img src="facebook.png" alt="facebook" /></a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="https://www.instagram.com/" target="_blank">
+                                                <img src="instagram.png" alt="instagram" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="text-center">
+                                    <div class="text-muted pb-3">© 2024 Company, Inc</div>
+                                </div>
+                            </div>
+                        </footer>
+
+
+
+
+
+
+
+
+
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+                            integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+                            crossorigin="anonymous"></script>
+</body>
+
+</html>
